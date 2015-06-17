@@ -1,5 +1,5 @@
 {
-  "name": "gmaps-csv-generator",
+  "name": "gmaps-csv",
   "version": "0.1.0",
   "description": "A package for taken a CSV of (name|location) and generating a CSV of (name|location|latitude|longitude|map-link) using the geocode API",
   "main": "index.js",

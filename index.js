@@ -97,6 +97,7 @@ var gmapsCsv = function() {
 
         if (!userArgs[0] || !userArgs[1]) {
             console.error(chalk.red('You need to provide both an api key and a file in that order.'));
+            return;
         }
 
         var apiKey = userArgs[0];
