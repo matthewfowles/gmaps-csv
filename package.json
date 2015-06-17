@@ -1,0 +1,22 @@
+{
+  "name": "gmaps-csv-generator",
+  "version": "0.1.0",
+  "description": "A package for taken a CSV of (name|location) and generating a CSV of (name|location|latitude|longitude|map-link) using the geocode API",
+  "main": "index.js",
+  "repository": "git@github.com:matthewfowles/gmaps-csv.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Fowles",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bin": {
+    "gmaps-csv": "index.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "chalk": "^1.0.0",
+    "csv": "^0.4.5",
+    "request": "^2.57.0"
+  }
+}
